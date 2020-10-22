@@ -1,0 +1,15 @@
+{
+    "name": "B-ify",
+    "version": "1.1",
+    "description": "Yeyeye",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "images/b.png"
+        }
+    },
+    "icons": {
+        "128": "images/b.png"
+    },
+    "manifest_version": 2
+}

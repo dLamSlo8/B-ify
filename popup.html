@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./popup.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>B-ify</h1>
+    <p class="description">This extension adds the letter 'b' to the beginning of every word in the input text!</p>
+    <form class="phrase-form">
+        <label class="phrase-form__label" for="phrase">Enter the text you want to b-ify</label>
+        <textarea 
+        id="phrase"
+        class="phrase-form__input"
+        name="phrase"
+        rows="10"></textarea>
+        <button class="phrase-form__submit">B-ify</button>
+    </form>
+    <p class="copy-clipboard">Copied to clipboard!</p>
+</body>
+<script src="./popup.js"></script>
+
+</html>
